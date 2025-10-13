@@ -1,9 +1,19 @@
 import { test, expect } from '@playwright/test';
-const { TextBox } = require('../pages/TextBoxPage');
 
-test('open elements card', async ({ page }) => {
-  const home = new TextBox(page);
-  await home.goto();
-  await home.openCardByName('Elements');
-  await expect(page).toHaveURL(/.*elements/);
+test('correct input', async ({ page }) => {
+  const nameInput = page.locator('input#userName');
+  await page.goto('https://demoqa.com/text-box');
+  await nameInput.fill('Hey There!');
+
+  // Expect a title "to contain" a substring.
+  await expect(nameInput).toHaveValue(/Hey There!/);
+});
+
+test('correct email', async ({ page }) => {
+  const nameInput = page.locator('input#userEmail');
+  const submitButton = page.locator('button#submit');
+  await page.goto('https://demoqa.com/text-box');
+  await nameInput.fill('test@gmail.com');
+  await submitButton.click()
+  await expect(nameInput).not.toHaveClass(/mr-sm-2 field-error form-control/);
 });
