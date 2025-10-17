@@ -1,0 +1,109 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e10]
+    - generic [ref=e13]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]:
+              - img [ref=e22]
+              - text: Elements
+            - img [ref=e27]
+          - list [ref=e32]:
+            - listitem [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e36]: Text Box
+            - listitem [ref=e37] [cursor=pointer]:
+              - img [ref=e38]
+              - generic [ref=e40]: Check Box
+            - listitem [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Radio Button
+            - listitem [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e48]: Web Tables
+            - listitem [ref=e49] [cursor=pointer]:
+              - img [ref=e50]
+              - generic [ref=e52]: Buttons
+            - listitem [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e56]: Links
+            - listitem [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e60]: Broken Links - Images
+            - listitem [ref=e61] [cursor=pointer]:
+              - img [ref=e62]
+              - generic [ref=e64]: Upload and Download
+            - listitem [ref=e65] [cursor=pointer]:
+              - img [ref=e66]
+              - generic [ref=e68]: Dynamic Properties
+        - generic [ref=e71] [cursor=pointer]:
+          - generic [ref=e72]:
+            - img [ref=e74]
+            - text: Forms
+          - img [ref=e80]
+        - generic [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]:
+            - img [ref=e89]
+            - text: Alerts, Frame & Windows
+          - img [ref=e94]
+        - generic [ref=e100] [cursor=pointer]:
+          - generic [ref=e101]:
+            - img [ref=e103]
+            - text: Widgets
+          - img [ref=e108]
+        - generic [ref=e114] [cursor=pointer]:
+          - generic [ref=e115]:
+            - img [ref=e117]
+            - text: Interactions
+          - img [ref=e122]
+        - generic [ref=e128] [cursor=pointer]:
+          - generic [ref=e129]:
+            - img [ref=e131]
+            - text: Book Store Application
+          - img [ref=e136]
+      - generic [ref=e141]:
+        - heading "Links" [level=1] [ref=e142]
+        - heading "Following links will open new tab" [level=5] [ref=e143]:
+          - strong [ref=e144]: Following links will open new tab
+        - paragraph [ref=e145]:
+          - link "Home" [ref=e146] [cursor=pointer]:
+            - /url: https://demoqa.com
+        - paragraph [ref=e147]:
+          - link "HomerpTz4" [ref=e148] [cursor=pointer]:
+            - /url: https://demoqa.com
+        - heading "Following links will send an api call" [level=5] [ref=e149]:
+          - strong [ref=e150]: Following links will send an api call
+        - paragraph [ref=e151]:
+          - link "Created" [ref=e152] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - paragraph [ref=e153]:
+          - link "No Content" [ref=e154] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - paragraph [ref=e155]:
+          - link "Moved" [ref=e156] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - paragraph [ref=e157]:
+          - link "Bad Request" [active] [ref=e158] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - paragraph [ref=e159]:
+          - link "Unauthorized" [ref=e160] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - paragraph [ref=e161]:
+          - link "Forbidden" [ref=e162] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - paragraph [ref=e163]:
+          - link "Not Found" [ref=e164] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - paragraph [ref=e165]: Link has responded with staus 301 and status text Moved Permanently
+      - img "Build PlayWright tests with AI" [ref=e173] [cursor=pointer]
+    - contentinfo [ref=e174]:
+      - generic [ref=e175]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
