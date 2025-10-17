@@ -69,6 +69,5 @@ export class WebTablesPage {
          await this.deleteButton.click()
       }
   }
-
 }
 
