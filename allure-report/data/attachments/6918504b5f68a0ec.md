@@ -1,0 +1,343 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e2]:
+        - iframe [ref=f1e5]:
+          - link [ref=f2e2] [cursor=pointer]:
+            - /url: javascript:window.open(window.clickTag)
+        - generic [ref=f1e6]:
+          - generic:
+            - img [ref=f1e10] [cursor=pointer]
+            - button [ref=f1e12] [cursor=pointer]:
+              - img [ref=f1e13]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - text: Elements
+            - img [ref=e30]
+          - list [ref=e35]:
+            - listitem [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e39]: Text Box
+            - listitem [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e43]: Check Box
+            - listitem [ref=e44] [cursor=pointer]:
+              - img [ref=e45]
+              - generic [ref=e47]: Radio Button
+            - listitem [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e51]: Web Tables
+            - listitem [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e55]: Buttons
+            - listitem [ref=e56] [cursor=pointer]:
+              - img [ref=e57]
+              - generic [ref=e59]: Links
+            - listitem [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e63]: Broken Links - Images
+            - listitem [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e67]: Upload and Download
+            - listitem [ref=e68] [cursor=pointer]:
+              - img [ref=e69]
+              - generic [ref=e71]: Dynamic Properties
+        - generic [ref=e74] [cursor=pointer]:
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - text: Forms
+          - img [ref=e83]
+        - generic [ref=e89] [cursor=pointer]:
+          - generic [ref=e90]:
+            - img [ref=e92]
+            - text: Alerts, Frame & Windows
+          - img [ref=e97]
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e104]:
+            - img [ref=e106]
+            - text: Widgets
+          - img [ref=e111]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e118]:
+            - img [ref=e120]
+            - text: Interactions
+          - img [ref=e125]
+        - generic [ref=e131] [cursor=pointer]:
+          - generic [ref=e132]:
+            - img [ref=e134]
+            - text: Book Store Application
+          - img [ref=e139]
+      - generic [ref=e143]:
+        - iframe [ref=e146]:
+          - generic [ref=f3e2]:
+            - iframe [ref=f3e5]:
+              - generic [ref=f4e5]:
+                - img [ref=f4e8]
+                - img [ref=f4e11]
+                - img [ref=f4e14]
+                - generic [ref=f4e16]:
+                  - generic [ref=f4e17]: Спрей
+                  - generic [ref=f4e18]: от
+                  - generic [ref=f4e19]: "насморка:"
+                - generic [ref=f4e20]:
+                  - img [ref=f4e23]
+                  - img [ref=f4e26]
+                  - img [ref=f4e29]
+                - generic [ref=f4e31]:
+                  - generic [ref=f4e32]: облегчает
+                  - generic [ref=f4e33]: носовое дыхание
+                - generic [ref=f4e34]:
+                  - img [ref=f4e37]
+                  - img [ref=f4e40]
+                  - img [ref=f4e43]
+                - generic [ref=f4e45]:
+                  - generic [ref=f4e46]: действует
+                  - generic [ref=f4e47]: до 12 часов
+                - generic [ref=f4e48]:
+                  - img [ref=f4e51]
+                  - img [ref=f4e54]
+                  - img [ref=f4e57]
+                - generic [ref=f4e59]:
+                  - generic [ref=f4e60]: останавливает
+                  - generic [ref=f4e61]: течение из носа
+                - img [ref=f4e64]
+                - img [ref=f4e67]
+            - generic [ref=f3e6]:
+              - generic:
+                - img [ref=f3e10] [cursor=pointer]
+                - button [ref=f3e12] [cursor=pointer]:
+                  - img [ref=f3e13]
+        - heading [level=1] [ref=e147]: Web Tables
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - button [ref=e151] [cursor=pointer]: Add
+            - generic [ref=e153]:
+              - textbox [ref=e154]:
+                - /placeholder: Type to search
+              - img [ref=e158]
+          - generic [ref=e161]:
+            - grid [ref=e162]:
+              - row [ref=e164]:
+                - columnheader [ref=e165] [cursor=pointer]:
+                  - generic [ref=e166]: First Name
+                - columnheader [ref=e168] [cursor=pointer]:
+                  - generic [ref=e169]: Last Name
+                - columnheader [ref=e171] [cursor=pointer]:
+                  - generic [ref=e172]: Age
+                - columnheader [ref=e174] [cursor=pointer]:
+                  - generic [ref=e175]: Email
+                - columnheader [ref=e177] [cursor=pointer]:
+                  - generic [ref=e178]: Salary
+                - columnheader [ref=e180] [cursor=pointer]:
+                  - generic [ref=e181]: Department
+                - columnheader [ref=e183] [cursor=pointer]:
+                  - generic [ref=e184]: Action
+              - generic [ref=e186]:
+                - rowgroup [ref=e187]:
+                  - row [ref=e188]:
+                    - gridcell [ref=e189]: Cierra
+                    - gridcell [ref=e190]: Vega
+                    - gridcell [ref=e191]: "39"
+                    - gridcell [ref=e192]: cierra@example.com
+                    - gridcell [ref=e193]: "10000"
+                    - gridcell [ref=e194]: Insurance
+                    - gridcell [ref=e195]:
+                      - generic [ref=e196]:
+                        - img [ref=e198] [cursor=pointer]
+                        - img [ref=e201] [cursor=pointer]
+                - rowgroup [ref=e203]:
+                  - row [ref=e204]:
+                    - gridcell [ref=e205]: Alden
+                    - gridcell [ref=e206]: Cantrell
+                    - gridcell [ref=e207]: "45"
+                    - gridcell [ref=e208]: alden@example.com
+                    - gridcell [ref=e209]: "12000"
+                    - gridcell [ref=e210]: Compliance
+                    - gridcell [ref=e211]:
+                      - generic [ref=e212]:
+                        - img [ref=e214] [cursor=pointer]
+                        - img [ref=e217] [cursor=pointer]
+                - rowgroup [ref=e219]:
+                  - row [ref=e220]:
+                    - gridcell [ref=e221]: Kierra
+                    - gridcell [ref=e222]: Gentry
+                    - gridcell [ref=e223]: "29"
+                    - gridcell [ref=e224]: kierra@example.com
+                    - gridcell [ref=e225]: "2000"
+                    - gridcell [ref=e226]: Legal
+                    - gridcell [ref=e227]:
+                      - generic [ref=e228]:
+                        - img [ref=e230] [cursor=pointer]
+                        - img [ref=e233] [cursor=pointer]
+                - rowgroup [ref=e235]:
+                  - row [ref=e236]:
+                    - gridcell [ref=e237]
+                    - gridcell [ref=e238]
+                    - gridcell [ref=e239]
+                    - gridcell [ref=e240]
+                    - gridcell [ref=e241]
+                    - gridcell [ref=e242]
+                    - gridcell [ref=e243]
+                - rowgroup [ref=e244]:
+                  - row [ref=e245]:
+                    - gridcell [ref=e246]
+                    - gridcell [ref=e247]
+                    - gridcell [ref=e248]
+                    - gridcell [ref=e249]
+                    - gridcell [ref=e250]
+                    - gridcell [ref=e251]
+                    - gridcell [ref=e252]
+                - rowgroup [ref=e253]:
+                  - row [ref=e254]:
+                    - gridcell [ref=e255]
+                    - gridcell [ref=e256]
+                    - gridcell [ref=e257]
+                    - gridcell [ref=e258]
+                    - gridcell [ref=e259]
+                    - gridcell [ref=e260]
+                    - gridcell [ref=e261]
+                - rowgroup [ref=e262]:
+                  - row [ref=e263]:
+                    - gridcell [ref=e264]
+                    - gridcell [ref=e265]
+                    - gridcell [ref=e266]
+                    - gridcell [ref=e267]
+                    - gridcell [ref=e268]
+                    - gridcell [ref=e269]
+                    - gridcell [ref=e270]
+                - rowgroup [ref=e271]:
+                  - row [ref=e272]:
+                    - gridcell [ref=e273]
+                    - gridcell [ref=e274]
+                    - gridcell [ref=e275]
+                    - gridcell [ref=e276]
+                    - gridcell [ref=e277]
+                    - gridcell [ref=e278]
+                    - gridcell [ref=e279]
+                - rowgroup [ref=e280]:
+                  - row [ref=e281]:
+                    - gridcell [ref=e282]
+                    - gridcell [ref=e283]
+                    - gridcell [ref=e284]
+                    - gridcell [ref=e285]
+                    - gridcell [ref=e286]
+                    - gridcell [ref=e287]
+                    - gridcell [ref=e288]
+                - rowgroup [ref=e289]:
+                  - row [ref=e290]:
+                    - gridcell [ref=e291]
+                    - gridcell [ref=e292]
+                    - gridcell [ref=e293]
+                    - gridcell [ref=e294]
+                    - gridcell [ref=e295]
+                    - gridcell [ref=e296]
+                    - gridcell [ref=e297]
+            - generic [ref=e299]:
+              - button [disabled] [ref=e301]: Previous
+              - generic [ref=e302]:
+                - generic [ref=e303]:
+                  - text: Page
+                  - spinbutton [ref=e305]: "1"
+                  - text: of 1
+                - combobox [ref=e307]
+              - button [disabled] [ref=e309]: Next
+            - generic:
+              - generic: Loading...
+        - iframe [ref=e313]:
+          - generic [ref=f5e2]:
+            - iframe [ref=f5e5]:
+              - generic [ref=f6e1] [cursor=pointer]:
+                - link:
+                  - /url: javascript:window.open(window.clickTag)
+            - generic [ref=f5e6]:
+              - generic:
+                - img [ref=f5e10] [cursor=pointer]
+                - button [ref=f5e12] [cursor=pointer]:
+                  - img [ref=f5e13]
+      - generic [ref=e318]:
+        - img [ref=e320] [cursor=pointer]
+        - iframe [ref=e323]:
+          - generic [ref=f7e2]:
+            - iframe [ref=f7e5]:
+              - generic [ref=f8e5]:
+                - img [ref=f8e8]
+                - generic [ref=f8e9]:
+                  - img [ref=f8e12]
+                  - img [ref=f8e15]
+                - img [ref=f8e18]
+                - img [ref=f8e21]
+                - generic [ref=f8e23]:
+                  - generic [ref=f8e24]: Спрей
+                  - generic [ref=f8e25]: от
+                  - generic [ref=f8e26]: "насморка:"
+                - img [ref=f8e29]
+                - img [ref=f8e32]
+            - generic [ref=f7e6]:
+              - generic:
+                - img [ref=f7e10] [cursor=pointer]
+                - button [ref=f7e12] [cursor=pointer]:
+                  - img [ref=f7e13]
+        - iframe [ref=e326]:
+          - generic [ref=f9e2]:
+            - iframe [ref=f9e5]:
+              - generic [ref=f10e5]:
+                - img [ref=f10e8]
+                - img [ref=f10e11]
+                - img [ref=f10e14]
+                - img [ref=f10e17]
+                - img [ref=f10e20]
+                - img [ref=f10e23]
+                - img [ref=f10e26]
+                - img [ref=f10e29]
+                - img [ref=f10e32]
+                - img [ref=f10e35]
+                - img [ref=f10e38]
+            - generic [ref=f9e6]:
+              - generic:
+                - img [ref=f9e10] [cursor=pointer]
+                - button [ref=f9e12] [cursor=pointer]:
+                  - img [ref=f9e13]
+    - contentinfo [ref=e327]:
+      - generic [ref=e328]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+  - dialog [active] [ref=e330]:
+    - document:
+      - generic [ref=e331]:
+        - generic [ref=e332]:
+          - generic [ref=e333]: Registration Form
+          - button "Close" [ref=e334] [cursor=pointer]:
+            - text: ×
+            - generic [ref=e335]: Close
+        - generic [ref=e337]:
+          - generic [ref=e338]:
+            - generic [ref=e340]: First Name
+            - textbox "First Name" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e345]: Last Name
+            - textbox "Last Name" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e350]: Email
+            - textbox "name@example.com" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e355]: Age
+            - textbox "Age" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e360]: Salary
+            - textbox "Salary" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e365]: Department
+            - textbox "Department" [ref=e367]
+          - button "Submit" [ref=e370] [cursor=pointer]
+```
