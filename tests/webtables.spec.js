@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { WebTablesPage } from '../pages/WebTablesPage.js';
+import { WebTablesPage } from '../pages/Elements/WebTablesPage.js'
 
 // test('check row quantity', async ({ page }) => {
 //   const webTablesPage = new WebTablesPage(page);

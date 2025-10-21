@@ -1,0 +1,244 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e2]:
+        - iframe [ref=f1e5]:
+          - link [ref=f2e2]:
+            - /url: javascript:window.open(window.clickTag)
+        - generic [ref=f1e6]:
+          - generic:
+            - img [ref=f1e10] [cursor=pointer]
+            - button [ref=f1e12] [cursor=pointer]:
+              - img [ref=f1e13]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12]:
+        - /url: https://demoqa.com
+        - img [ref=e13]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - text: Elements
+            - img [ref=e30]
+          - list [ref=e35]:
+            - listitem [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e39]: Text Box
+            - listitem [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e43]: Check Box
+            - listitem [ref=e44] [cursor=pointer]:
+              - img [ref=e45]
+              - generic [ref=e47]: Radio Button
+            - listitem [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e51]: Web Tables
+            - listitem [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e55]: Buttons
+            - listitem [ref=e56] [cursor=pointer]:
+              - img [ref=e57]
+              - generic [ref=e59]: Links
+            - listitem [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e63]: Broken Links - Images
+            - listitem [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e67]: Upload and Download
+            - listitem [ref=e68] [cursor=pointer]:
+              - img [ref=e69]
+              - generic [ref=e71]: Dynamic Properties
+        - generic [ref=e74] [cursor=pointer]:
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - text: Forms
+          - img [ref=e83]
+        - generic [ref=e89] [cursor=pointer]:
+          - generic [ref=e90]:
+            - img [ref=e92]
+            - text: Alerts, Frame & Windows
+          - img [ref=e97]
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e104]:
+            - img [ref=e106]
+            - text: Widgets
+          - img [ref=e111]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e118]:
+            - img [ref=e120]
+            - text: Interactions
+          - img [ref=e125]
+        - generic [ref=e131] [cursor=pointer]:
+          - generic [ref=e132]:
+            - img [ref=e134]
+            - text: Book Store Application
+          - img [ref=e139]
+      - generic [ref=e143]:
+        - iframe [ref=e146]:
+          - generic [ref=f3e2]:
+            - iframe [ref=f3e5]:
+              - generic [ref=f4e5]:
+                - img [ref=f4e8]
+                - img [ref=f4e11]
+                - img [ref=f4e14]
+                - generic [ref=f4e16]:
+                  - generic [ref=f4e17]: Спрей
+                  - generic [ref=f4e18]: от
+                  - generic [ref=f4e19]: "насморка:"
+                - generic [ref=f4e20]:
+                  - img [ref=f4e23]
+                  - img [ref=f4e26]
+                  - img [ref=f4e29]
+                - generic [ref=f4e31]:
+                  - generic [ref=f4e32]: облегчает
+                  - generic [ref=f4e33]: носовое дыхание
+                - generic [ref=f4e34]:
+                  - img [ref=f4e37]
+                  - img [ref=f4e40]
+                  - img [ref=f4e43]
+                - generic [ref=f4e45]:
+                  - generic [ref=f4e46]: действует
+                  - generic [ref=f4e47]: до 12 часов
+                - generic [ref=f4e48]:
+                  - img [ref=f4e51]
+                  - img [ref=f4e54]
+                  - img [ref=f4e57]
+                - generic [ref=f4e59]:
+                  - generic [ref=f4e60]: останавливает
+                  - generic [ref=f4e61]: течение из носа
+                - img [ref=f4e64]
+                - img [ref=f4e67]
+            - generic [ref=f3e6]:
+              - generic:
+                - img [ref=f3e10] [cursor=pointer]
+                - button [ref=f3e12] [cursor=pointer]:
+                  - img [ref=f3e13]
+        - heading "Check Box" [level=1] [ref=e147]
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - button "Expand all" [ref=e151] [cursor=pointer]:
+                - img [ref=e152]
+              - button "Collapse all" [ref=e154] [cursor=pointer]:
+                - img [ref=e155]
+            - list [ref=e157]:
+              - listitem [ref=e158]:
+                - generic [ref=e159]:
+                  - button "Toggle" [ref=e160] [cursor=pointer]:
+                    - img [ref=e161]
+                  - generic [ref=e163] [cursor=pointer]:
+                    - img [ref=e165]
+                    - img [ref=e168]
+                    - text: Home
+          - generic [ref=e170]:
+            - generic [ref=e171]: "You have selected :"
+            - generic [ref=e172]: home
+            - generic [ref=e173]: desktop
+            - generic [ref=e174]: notes
+            - generic [ref=e175]: commands
+            - generic [ref=e176]: documents
+            - generic [ref=e177]: workspace
+            - generic [ref=e178]: react
+            - generic [ref=e179]: angular
+            - generic [ref=e180]: veu
+            - generic [ref=e181]: office
+            - generic [ref=e182]: public
+            - generic [ref=e183]: private
+            - generic [ref=e184]: classified
+            - generic [ref=e185]: general
+            - generic [ref=e186]: downloads
+            - generic [ref=e187]: wordFile
+            - generic [ref=e188]: excelFile
+        - iframe [ref=e192]:
+          - generic [ref=f5e2]:
+            - iframe [ref=f5e5]:
+              - generic [ref=f6e1] [cursor=pointer]:
+                - link:
+                  - /url: javascript:window.open(window.clickTag)
+            - generic [ref=f5e6]:
+              - generic:
+                - img [ref=f5e10] [cursor=pointer]
+                - button [ref=f5e12] [cursor=pointer]:
+                  - img [ref=f5e13]
+      - generic [ref=e197]:
+        - img "Build PlayWright tests with AI" [ref=e199] [cursor=pointer]
+        - iframe [ref=e202]:
+          - generic [ref=f7e2]:
+            - iframe [ref=f7e5]:
+              - generic [ref=f8e5]:
+                - img [ref=f8e8]
+                - img [ref=f8e11]
+                - img [ref=f8e14]
+                - generic [ref=f8e16]:
+                  - generic [ref=f8e17]: Спрей
+                  - generic [ref=f8e18]: от
+                  - generic [ref=f8e19]: "насморка:"
+                - generic [ref=f8e20]:
+                  - img [ref=f8e23]
+                  - img [ref=f8e26]
+                  - img [ref=f8e29]
+                - generic [ref=f8e31]:
+                  - generic [ref=f8e32]: облегчает
+                  - generic [ref=f8e33]: носовое дыхание
+                - generic [ref=f8e34]:
+                  - img [ref=f8e37]
+                  - img [ref=f8e40]
+                  - img [ref=f8e43]
+                - generic [ref=f8e45]:
+                  - generic [ref=f8e46]: действует
+                  - generic [ref=f8e47]: до 12 часов
+                - generic [ref=f8e48]:
+                  - img [ref=f8e51]
+                  - img [ref=f8e54]
+                  - img [ref=f8e57]
+                - generic [ref=f8e59]:
+                  - generic [ref=f8e60]: останавливает
+                  - generic [ref=f8e61]: течение из носа
+                - img [ref=f8e64]
+                - img [ref=f8e67]
+                - paragraph [ref=f8e69]:
+                  - generic [ref=f8e70]:
+                    - text: ЛЕКАРСТВЕННЫЙ ПРЕПАРАТ. ПЕРЕД ПРИМЕНЕНИЕМ ПРОКОНСУЛЬТИРУЙТЕСЬ
+                    - text: С ВРАЧОМ И ОЗНАКОМЬТЕСЬ
+                    - text: С ИНСТРУКЦИЕЙ.
+                - paragraph [ref=f8e71]:
+                  - text: Реклама. Имеются медицинские противопоказания к применению и нежелательные реакции. Препарат
+                  - text: не следует применять чаще 3-х раз в день. Курс лечения не более 7-ми дней. Не применять во время беременности. Раствор 0,05% детям с 2-х до 12-ти лет.
+                  - text: Раствор 0,1% взрослым и детям старше 12-ти лет.
+                  - text: "Производитель: Hemomont d.o.o., Черногория. РУ №10963/21 выдано МЗ РБ 08.06.2021г.,"
+                  - text: "срок действия: до 11.11.2026"
+            - generic [ref=f7e6]:
+              - generic:
+                - img [ref=f7e10] [cursor=pointer]
+                - button [ref=f7e12] [cursor=pointer]:
+                  - img [ref=f7e13]
+        - iframe [ref=e205]:
+          - generic [ref=f9e2]:
+            - iframe [ref=f9e5]:
+              - generic [ref=f10e5]:
+                - img [ref=f10e8]
+                - img [ref=f10e11]
+                - img [ref=f10e14]
+                - img [ref=f10e17]
+                - img [ref=f10e20]
+                - img [ref=f10e23]
+                - img [ref=f10e26]
+                - img [ref=f10e29]
+                - img [ref=f10e32]
+                - img [ref=f10e35]
+                - img [ref=f10e38]
+            - generic [ref=f9e6]:
+              - generic:
+                - img [ref=f9e10] [cursor=pointer]
+                - button [ref=f9e12] [cursor=pointer]:
+                  - img [ref=f9e13]
+    - contentinfo [ref=e206]:
+      - generic [ref=e207]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

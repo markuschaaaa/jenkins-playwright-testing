@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { RadioButton } from '../pages/RadioButtonPage.js';
+import { RadioButton } from '../pages/Elements/RadioButtonPage';
 
 test('radio button check', async ({page})=>{
    const radioButton = new RadioButton(page)

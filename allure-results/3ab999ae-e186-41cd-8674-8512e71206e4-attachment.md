@@ -1,0 +1,88 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - link:
+        - /url: https://demoqa.com
+        - img
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e17] [cursor=pointer]:
+            - generic [ref=e18]:
+              - img [ref=e20]
+              - text: Elements
+            - img [ref=e25]
+          - list [ref=e30]:
+            - listitem [ref=e31] [cursor=pointer]:
+              - img [ref=e32]
+              - generic [ref=e34]: Text Box
+            - listitem [ref=e35] [cursor=pointer]:
+              - img [ref=e36]
+              - generic [ref=e38]: Check Box
+            - listitem [ref=e39] [cursor=pointer]:
+              - img [ref=e40]
+              - generic [ref=e42]: Radio Button
+            - listitem [ref=e43] [cursor=pointer]:
+              - img [ref=e44]
+              - generic [ref=e46]: Web Tables
+            - listitem [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e50]: Buttons
+            - listitem [ref=e51] [cursor=pointer]:
+              - img [ref=e52]
+              - generic [ref=e54]: Links
+            - listitem [ref=e55] [cursor=pointer]:
+              - img [ref=e56]
+              - generic [ref=e58]: Broken Links - Images
+            - listitem [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e62]: Upload and Download
+            - listitem [ref=e63] [cursor=pointer]:
+              - img [ref=e64]
+              - generic [ref=e66]: Dynamic Properties
+        - generic [ref=e69] [cursor=pointer]:
+          - generic [ref=e70]:
+            - img [ref=e72]
+            - text: Forms
+          - img [ref=e78]
+        - generic [ref=e84] [cursor=pointer]:
+          - generic [ref=e85]:
+            - img [ref=e87]
+            - text: Alerts, Frame & Windows
+          - img [ref=e92]
+        - generic [ref=e98] [cursor=pointer]:
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - text: Widgets
+          - img [ref=e106]
+        - generic [ref=e112] [cursor=pointer]:
+          - generic [ref=e113]:
+            - img [ref=e115]
+            - text: Interactions
+          - img [ref=e120]
+        - generic [ref=e126] [cursor=pointer]:
+          - generic [ref=e127]:
+            - img [ref=e129]
+            - text: Book Store Application
+          - img [ref=e134]
+      - generic [ref=e139]:
+        - heading "Broken Links - Images" [level=1] [ref=e140]
+        - paragraph [ref=e141]: Valid image
+        - img
+        - paragraph [ref=e142]: Broken image
+        - img
+        - paragraph [ref=e143]: Valid Link
+        - link "Click Here for Valid Link" [ref=e144] [cursor=pointer]:
+          - /url: http://demoqa.com
+        - paragraph [ref=e145]: Broken Link
+        - link "Click Here for Broken Link" [ref=e146] [cursor=pointer]:
+          - /url: http://the-internet.herokuapp.com/status_codes/500
+      - generic [ref=e153] [cursor=pointer]:
+        - img "Build PlayWright tests with AI"
+    - contentinfo [ref=e154]:
+      - generic [ref=e155]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

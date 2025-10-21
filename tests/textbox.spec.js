@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import {TextBox} from '../pages/TextBoxPage.js'
+import {TextBox} from '../pages/Elements/TextBoxPage.js'
 
 test('correct email', async ({ page }) => {
   const textBox = new TextBox(page)

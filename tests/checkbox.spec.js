@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { CheckboxPage } from '../pages/CheckBoxPage.js';
+import { CheckboxPage } from '../pages/Elements/CheckBoxPage.js';
 
 test('check main checkbox', async ({ page }) => {
   const checkboxPage = new CheckboxPage(page); 

@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { BrokenLinks } from '../pages/BrokenLinksPage.js';
+import { BrokenLinks } from '../pages/Elements/BrokenLinksPage';
 
  
 

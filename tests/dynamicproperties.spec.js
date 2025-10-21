@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { DynamicProperties } from '../pages/DynamicPropertiesPage';
+import { DynamicProperties } from '../pages/Elements/DynamicPropertiesPage';
 
 test('элемент появляется на странице спустя 5 секунд', async ({ page }) => {
    const dynamicProperties = new DynamicProperties(page)

@@ -1,6 +1,5 @@
-import { test, expect } from '@playwright/test';
-import path from 'path';
-import { UploadDownload } from '../pages/UploadDownloadPage.js';
+import { test } from '@playwright/test';
+import { UploadDownload } from '../pages/Elements/UploadDownloadPage.js';
 
 
 test('download file test with async/await', async ({ page }) => {
